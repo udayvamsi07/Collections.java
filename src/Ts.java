@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -10,10 +11,11 @@ public class Ts {
         n.add(1);
         n.add(24);
         n.add(36);
-        n.add(2);
-        for(int a:n)
+        n.add(3);
+        Iterator<Integer> values=n.iterator();
+        while(values.hasNext())
         {
-            System.out.println(a);
+            System.out.println(values.next());
         }
 
     }
