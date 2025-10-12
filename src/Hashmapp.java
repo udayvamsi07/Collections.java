@@ -1,4 +1,4 @@
-package pack;
+
 import java.util.Map;
 import java.util.HashMap;
 //Hashmap and hashtable are similar but the only difference is hashmap will not sycronize the data and hashtable will syncronize the data if multiple there are multilple threads are there.
