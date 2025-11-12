@@ -6,7 +6,7 @@ import java.util.Optional;
 
 public class Optionall {
     public static void main(String[] args) {
-        List<String> names=Arrays.asList("uday","vamsi","Pitta","batman");
+        List<String> names=Arrays.asList("uday","vamnsi","Pitta","batman");
     //    Optional<String> str=names.stream()
     //           .filter(st ->st.contains("n"))
     //           .findFirst();
